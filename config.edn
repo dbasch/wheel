@@ -1,0 +1,8 @@
+{:user-table "users"
+ 
+ :dbspec {:subprotocol "h2"
+          :classname "org.h2.Driver"
+          :subname "file:///tmp/users"}
+
+ :schema [[:id :varchar  "PRIMARY KEY"]
+          [:key :varchar "NOT NULL"]]}
